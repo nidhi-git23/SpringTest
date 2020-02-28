@@ -20,4 +20,7 @@ public class Student {
 		this.name = name;
 	}
 	
+	public void displayInfo() {
+		System.out.println("name--> " +name);
+	}
 }
